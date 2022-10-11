@@ -1102,13 +1102,13 @@ let
         sha512 = "RofWgt/7fL5wP1Y7fxE7/EmTLzQVnB0ycyibJ0OOHIlJqTNzglYFxVwETOcIoJqJmpDXJ9xImDv+Fq34F/d4Dw==";
       };
     };
-    "purescript-spaghetto-0.0.13" = {
+    "purescript-spaghetto-0.0.14" = {
       name = "purescript-spaghetto";
       packageName = "purescript-spaghetto";
-      version = "0.0.13";
+      version = "0.0.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/purescript-spaghetto/-/purescript-spaghetto-0.0.13.tgz";
-        sha512 = "+ctAETeqkLT2Ab6NIwCuV3LtJn5EC5Cdwq5Z2C+7zeQ2j0PxVmNmlp74sKmxppQxTL4tJPwsRLJPtMqLla8U/A==";
+        url = "https://registry.npmjs.org/purescript-spaghetto/-/purescript-spaghetto-0.0.14.tgz";
+        sha512 = "6UmXV8vAb/btWHFOy04lcaLGQ7rydIDcKXqDpI/ODGKf2gEXPyby9nz723D6s6fzk/2vLF2F3ZIvHkhfsVVyAg==";
       };
     };
     "querystring-0.2.0" = {
@@ -1457,7 +1457,7 @@ let
   args = {
     name = "purescript-spaghetto";
     packageName = "purescript-spaghetto";
-    version = "0.0.13";
+    version = "0.0.14";
     src = ./.;
     dependencies = [
       sources."@esbuild/android-arm-0.15.10"
@@ -1582,7 +1582,7 @@ let
       sources."path-is-absolute-1.0.1"
       sources."picomatch-2.3.1"
       sources."punycode-1.3.2"
-      sources."purescript-spaghetto-0.0.13"
+      sources."purescript-spaghetto-0.0.14"
       sources."querystring-0.2.0"
       sources."queue-microtask-1.2.3"
       sources."regexp.prototype.flags-1.4.3"
