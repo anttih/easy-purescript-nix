@@ -1,7 +1,7 @@
 {
   "name": "purescript-spaghetto",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "dependencies": {
-    "purescript-spaghetto": "0.0.12"
+    "purescript-spaghetto": "0.0.13"
   }
 }
