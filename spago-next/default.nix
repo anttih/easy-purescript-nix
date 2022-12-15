@@ -4,7 +4,7 @@
 }:
 
 let
-  version = "0.91.1";
+  version = "0.92.0";
 
   nodeEnv = import ./node-env.nix {
     inherit (pkgs) stdenv lib python2 runCommand writeTextFile;
@@ -17,6 +17,6 @@ let
     inherit nodeEnv;
   };
 
-  source = nodePackage.sources."purescript-spaghetto-${version}".src;
+  source = nodePackage.sources."spago-${version}".src;
 in
 nodeEnv.buildNodePackage (nodePackage.args // { src = source; })
