@@ -184,13 +184,13 @@ let
         sha512 = "DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==";
       };
     };
-    "aws-sdk-2.1275.0" = {
+    "aws-sdk-2.1277.0" = {
       name = "aws-sdk";
       packageName = "aws-sdk";
-      version = "2.1275.0";
+      version = "2.1277.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1275.0.tgz";
-        sha512 = "GP7oS0BTh012pAMnNSVVQQrhfubeLH2moLUQQiuk9cPrqQYeP74BU3nnALM30CoFNzX+DwLanOeFU+KMfUGLHg==";
+        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1277.0.tgz";
+        sha512 = "cEZ0rg0j3STtLX6rba5tHMrV/KrhXKLtSleleF2IdTFzUjqRvxI54Pqc51w2D7tgAPUgEhMB4Q/ruKPqB8w+2Q==";
       };
     };
     "balanced-match-1.0.2" = {
@@ -1111,13 +1111,13 @@ let
         sha512 = "wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==";
       };
     };
-    "spago-0.92.0" = {
+    "spago-0.92.1" = {
       name = "spago";
       packageName = "spago";
-      version = "0.92.0";
+      version = "0.92.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spago/-/spago-0.92.0.tgz";
-        sha512 = "4vBG5cp4Bk/+irGGBtuxjjkynWOgrME5wnAx+AHUK+2ClwGJSeSK6nXiSwgGEiK3qRfQ4tPXLyiTw0rVYCRYEA==";
+        url = "https://registry.npmjs.org/spago/-/spago-0.92.1.tgz";
+        sha512 = "L1XZu3phynFE57cCiCoxue9V6M6RPcEp7LA46RHkctRMedZBv+daD9VbixF1zmiQIljoCOBosPB3opx5N/Sycg==";
       };
     };
     "spdx-exceptions-2.3.0" = {
@@ -1340,7 +1340,7 @@ let
   args = {
     name = "spago";
     packageName = "spago";
-    version = "0.92.0";
+    version = "0.92.1";
     src = ./.;
     dependencies = [
       sources."@esbuild/android-arm-0.15.18"
@@ -1363,7 +1363,7 @@ let
       sources."@octokit/rest-18.12.0"
       sources."@octokit/types-6.41.0"
       sources."available-typed-arrays-1.0.5"
-      sources."aws-sdk-2.1275.0"
+      sources."aws-sdk-2.1277.0"
       sources."balanced-match-1.0.2"
       sources."base64-js-1.5.1"
       sources."before-after-hook-2.2.3"
@@ -1476,7 +1476,7 @@ let
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-3.0.7"
-      sources."spago-0.92.0"
+      sources."spago-0.92.1"
       sources."spdx-exceptions-2.3.0"
       sources."spdx-expression-parse-3.0.1"
       sources."spdx-license-ids-3.0.12"
