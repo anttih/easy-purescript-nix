@@ -1111,13 +1111,13 @@ let
         sha512 = "wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==";
       };
     };
-    "spago-0.92.1" = {
+    "spago-0.92.2" = {
       name = "spago";
       packageName = "spago";
-      version = "0.92.1";
+      version = "0.92.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spago/-/spago-0.92.1.tgz";
-        sha512 = "L1XZu3phynFE57cCiCoxue9V6M6RPcEp7LA46RHkctRMedZBv+daD9VbixF1zmiQIljoCOBosPB3opx5N/Sycg==";
+        url = "https://registry.npmjs.org/spago/-/spago-0.92.2.tgz";
+        sha512 = "cylSyLjN9MGt+fNNZpFogY7UhliRV5oxiX0EeOcyX/zsK7AmeKSXguV8WO00PNxBCDS3UxnB/fJEWoAexzMAVw==";
       };
     };
     "spdx-exceptions-2.3.0" = {
@@ -1340,7 +1340,7 @@ let
   args = {
     name = "spago";
     packageName = "spago";
-    version = "0.92.1";
+    version = "0.92.2";
     src = ./.;
     dependencies = [
       sources."@esbuild/android-arm-0.15.18"
@@ -1476,7 +1476,7 @@ let
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-3.0.7"
-      sources."spago-0.92.1"
+      sources."spago-0.92.2"
       sources."spdx-exceptions-2.3.0"
       sources."spdx-expression-parse-3.0.1"
       sources."spdx-license-ids-3.0.12"
