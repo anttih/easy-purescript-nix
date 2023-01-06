@@ -184,13 +184,13 @@ let
         sha512 = "DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==";
       };
     };
-    "aws-sdk-2.1277.0" = {
+    "aws-sdk-2.1290.0" = {
       name = "aws-sdk";
       packageName = "aws-sdk";
-      version = "2.1277.0";
+      version = "2.1290.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1277.0.tgz";
-        sha512 = "cEZ0rg0j3STtLX6rba5tHMrV/KrhXKLtSleleF2IdTFzUjqRvxI54Pqc51w2D7tgAPUgEhMB4Q/ruKPqB8w+2Q==";
+        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1290.0.tgz";
+        sha512 = "qRrXLgK4FpkdxeagjrHuhtEEvYrvRbddTBg1I7KBuMCIhXHzSS3nEUmdZjdyMuQJEvt0BCJjwVkNh8e/5TauDQ==";
       };
     };
     "balanced-match-1.0.2" = {
@@ -535,13 +535,13 @@ let
         sha512 = "DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==";
       };
     };
-    "fastq-1.14.0" = {
+    "fastq-1.15.0" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.14.0";
+      version = "1.15.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.14.0.tgz";
-        sha512 = "eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.15.0.tgz";
+        sha512 = "wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==";
       };
     };
     "fill-range-7.0.1" = {
@@ -1111,13 +1111,13 @@ let
         sha512 = "wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==";
       };
     };
-    "spago-0.92.2" = {
+    "spago-0.92.3" = {
       name = "spago";
       packageName = "spago";
-      version = "0.92.2";
+      version = "0.92.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spago/-/spago-0.92.2.tgz";
-        sha512 = "cylSyLjN9MGt+fNNZpFogY7UhliRV5oxiX0EeOcyX/zsK7AmeKSXguV8WO00PNxBCDS3UxnB/fJEWoAexzMAVw==";
+        url = "https://registry.npmjs.org/spago/-/spago-0.92.3.tgz";
+        sha512 = "r2qEg97lpgf9Shq65qKoVX3or38/J5uBLnc/0dIzsKOPNWVgM5SMqLr45fJj38bjeuQdTVdcZx/EBmxBdJVwDw==";
       };
     };
     "spdx-exceptions-2.3.0" = {
@@ -1327,20 +1327,20 @@ let
         sha512 = "3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==";
       };
     };
-    "yaml-2.1.3" = {
+    "yaml-2.2.1" = {
       name = "yaml";
       packageName = "yaml";
-      version = "2.1.3";
+      version = "2.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/yaml/-/yaml-2.1.3.tgz";
-        sha512 = "AacA8nRULjKMX2DvWvOAdBZMOfQlypSFkjcOcu9FalllIDJ1kvlREzcdIZmidQUqqeMv7jorHjq2HlLv/+c2lg==";
+        url = "https://registry.npmjs.org/yaml/-/yaml-2.2.1.tgz";
+        sha512 = "e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==";
       };
     };
   };
   args = {
     name = "spago";
     packageName = "spago";
-    version = "0.92.2";
+    version = "0.92.3";
     src = ./.;
     dependencies = [
       sources."@esbuild/android-arm-0.15.18"
@@ -1363,7 +1363,7 @@ let
       sources."@octokit/rest-18.12.0"
       sources."@octokit/types-6.41.0"
       sources."available-typed-arrays-1.0.5"
-      sources."aws-sdk-2.1277.0"
+      sources."aws-sdk-2.1290.0"
       sources."balanced-match-1.0.2"
       sources."base64-js-1.5.1"
       sources."before-after-hook-2.2.3"
@@ -1402,7 +1402,7 @@ let
       sources."events-1.1.1"
       sources."execa-6.1.0"
       sources."fast-glob-3.2.12"
-      sources."fastq-1.14.0"
+      sources."fastq-1.15.0"
       sources."fill-range-7.0.1"
       sources."for-each-0.3.3"
       sources."fs-extra-10.1.0"
@@ -1476,7 +1476,7 @@ let
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-3.0.7"
-      sources."spago-0.92.2"
+      sources."spago-0.92.3"
       sources."spdx-exceptions-2.3.0"
       sources."spdx-expression-parse-3.0.1"
       sources."spdx-license-ids-3.0.12"
@@ -1500,7 +1500,7 @@ let
       sources."xml2js-0.4.19"
       sources."xmlbuilder-9.0.7"
       sources."yallist-4.0.0"
-      sources."yaml-2.1.3"
+      sources."yaml-2.2.1"
     ];
     buildInputs = globalBuildInputs;
     meta = {

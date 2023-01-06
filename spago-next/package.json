@@ -1,7 +1,7 @@
 {
   "name": "spago",
-  "version": "0.92.2",
+  "version": "0.92.3",
   "dependencies": {
-    "spago": "0.92.2"
+    "spago": "0.92.3"
   }
 }
