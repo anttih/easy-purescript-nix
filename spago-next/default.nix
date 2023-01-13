@@ -1,22 +1,3 @@
-{ pkgs ? import <nixpkgs> { inherit system; }
-, system ? builtins.currentSystem
-, nodejs ? pkgs."nodejs-14_x"
-}:
+{ pkgs ? import <nixpkgs> { } }:
 
-let
-  version = "0.92.4";
-
-  nodeEnv = import ./node-env.nix {
-    inherit (pkgs) stdenv lib python2 runCommand writeTextFile;
-    inherit pkgs nodejs;
-    libtool = if pkgs.stdenv.isDarwin then pkgs.darwin.cctools else null;
-  };
-
-  nodePackage = import ./node-packages.nix {
-    inherit (pkgs) fetchurl nix-gitignore stdenv lib fetchgit;
-    inherit nodeEnv;
-  };
-
-  source = nodePackage.sources."spago-${version}".src;
-in
-nodeEnv.buildNodePackage (nodePackage.args // { src = source; })
+(import ./composition.nix { inherit pkgs; })."spago"

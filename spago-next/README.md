@@ -1,0 +1,5 @@
+# Updating
+
+```sh
+./generate.sh
+```
