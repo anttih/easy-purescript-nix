@@ -184,13 +184,13 @@ let
         sha512 = "DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==";
       };
     };
-    "aws-sdk-2.1290.0" = {
+    "aws-sdk-2.1294.0" = {
       name = "aws-sdk";
       packageName = "aws-sdk";
-      version = "2.1290.0";
+      version = "2.1294.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1290.0.tgz";
-        sha512 = "qRrXLgK4FpkdxeagjrHuhtEEvYrvRbddTBg1I7KBuMCIhXHzSS3nEUmdZjdyMuQJEvt0BCJjwVkNh8e/5TauDQ==";
+        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1294.0.tgz";
+        sha512 = "/n/xbae0efRA/wpaMyF/0Jip8V0MMPEFicreDHRmiy/4iUrsqMvHdeaO8OW0kUYKHyUClKsc36Fu4GyhONKISw==";
       };
     };
     "balanced-match-1.0.2" = {
@@ -940,13 +940,13 @@ let
         sha512 = "vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==";
       };
     };
-    "node-fetch-2.6.7" = {
+    "node-fetch-2.6.8" = {
       name = "node-fetch";
       packageName = "node-fetch";
-      version = "2.6.7";
+      version = "2.6.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz";
-        sha512 = "ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==";
+        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.8.tgz";
+        sha512 = "RZ6dBYuj8dRSfxpUSu+NsdF1dpPpluJxwOp+6IoDp/sH2QNDSvurYsAa+F1WxY2RjA1iP93xhcsUoYbF2XBqVg==";
       };
     };
     "npm-run-path-5.1.0" = {
@@ -1111,13 +1111,13 @@ let
         sha512 = "wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==";
       };
     };
-    "spago-0.92.3" = {
+    "spago-0.92.4" = {
       name = "spago";
       packageName = "spago";
-      version = "0.92.3";
+      version = "0.92.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spago/-/spago-0.92.3.tgz";
-        sha512 = "r2qEg97lpgf9Shq65qKoVX3or38/J5uBLnc/0dIzsKOPNWVgM5SMqLr45fJj38bjeuQdTVdcZx/EBmxBdJVwDw==";
+        url = "https://registry.npmjs.org/spago/-/spago-0.92.4.tgz";
+        sha512 = "B3/Mn8k/+bPtmDuTJzHxZGhaMH1eOh6ihC2DTBd3VIdW/0xqesYwrR98u0GcLO7B6zbyDC1Xwc1u0I2zgRZ5rQ==";
       };
     };
     "spdx-exceptions-2.3.0" = {
@@ -1340,7 +1340,7 @@ let
   args = {
     name = "spago";
     packageName = "spago";
-    version = "0.92.3";
+    version = "0.92.4";
     src = ./.;
     dependencies = [
       sources."@esbuild/android-arm-0.15.18"
@@ -1363,7 +1363,7 @@ let
       sources."@octokit/rest-18.12.0"
       sources."@octokit/types-6.41.0"
       sources."available-typed-arrays-1.0.5"
-      sources."aws-sdk-2.1290.0"
+      sources."aws-sdk-2.1294.0"
       sources."balanced-match-1.0.2"
       sources."base64-js-1.5.1"
       sources."before-after-hook-2.2.3"
@@ -1454,7 +1454,7 @@ let
         ];
       })
       sources."mkdirp-1.0.4"
-      sources."node-fetch-2.6.7"
+      sources."node-fetch-2.6.8"
       (sources."npm-run-path-5.1.0" // {
         dependencies = [
           sources."path-key-4.0.0"
@@ -1476,7 +1476,7 @@ let
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-3.0.7"
-      sources."spago-0.92.3"
+      sources."spago-0.92.4"
       sources."spdx-exceptions-2.3.0"
       sources."spdx-expression-parse-3.0.1"
       sources."spdx-license-ids-3.0.12"
