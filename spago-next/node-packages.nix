@@ -184,13 +184,13 @@ let
         sha512 = "DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==";
       };
     };
-    "aws-sdk-2.1294.0" = {
+    "aws-sdk-2.1295.0" = {
       name = "aws-sdk";
       packageName = "aws-sdk";
-      version = "2.1294.0";
+      version = "2.1295.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1294.0.tgz";
-        sha512 = "/n/xbae0efRA/wpaMyF/0Jip8V0MMPEFicreDHRmiy/4iUrsqMvHdeaO8OW0kUYKHyUClKsc36Fu4GyhONKISw==";
+        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1295.0.tgz";
+        sha512 = "HVYoFCyfiL8gzL/c0lSRTg8tWBLfqAEDfwzGe338ww/LahpmC6C07S71SBBIvtGq3dpd7IwEobAbubZDijrA0Q==";
       };
     };
     "balanced-match-1.0.2" = {
@@ -1333,10 +1333,10 @@ in
   spago-next = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.92.4";
+    version = "0.92.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.92.4.tgz";
-      sha512 = "B3/Mn8k/+bPtmDuTJzHxZGhaMH1eOh6ihC2DTBd3VIdW/0xqesYwrR98u0GcLO7B6zbyDC1Xwc1u0I2zgRZ5rQ==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.92.5.tgz";
+      sha512 = "YWz1QPfNRxB9JVvYDEDdvN8/+oe3g/YPJoDEGrOOFdKjfyF1FRbhtEUsEeOSWHpftbqD+zp6MW7QbPv1v5qKgA==";
     };
     dependencies = [
       sources."@esbuild/android-arm-0.15.18"
@@ -1359,7 +1359,7 @@ in
       sources."@octokit/rest-18.12.0"
       sources."@octokit/types-6.41.0"
       sources."available-typed-arrays-1.0.5"
-      sources."aws-sdk-2.1294.0"
+      sources."aws-sdk-2.1295.0"
       sources."balanced-match-1.0.2"
       sources."base64-js-1.5.1"
       sources."before-after-hook-2.2.3"
