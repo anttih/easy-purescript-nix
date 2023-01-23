@@ -184,13 +184,13 @@ let
         sha512 = "DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==";
       };
     };
-    "aws-sdk-2.1295.0" = {
+    "aws-sdk-2.1299.0" = {
       name = "aws-sdk";
       packageName = "aws-sdk";
-      version = "2.1295.0";
+      version = "2.1299.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1295.0.tgz";
-        sha512 = "HVYoFCyfiL8gzL/c0lSRTg8tWBLfqAEDfwzGe338ww/LahpmC6C07S71SBBIvtGq3dpd7IwEobAbubZDijrA0Q==";
+        url = "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1299.0.tgz";
+        sha512 = "xTh6pmCUEJljkFfTM3sE8UozDxal80uX/5WZl8GcjQ+NbrGeQEdvL6wFWBwEEVbhR0VBVuU37cKPuQlfENbRYA==";
       };
     };
     "balanced-match-1.0.2" = {
@@ -607,13 +607,13 @@ let
         sha512 = "cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==";
       };
     };
-    "get-intrinsic-1.1.3" = {
+    "get-intrinsic-1.2.0" = {
       name = "get-intrinsic";
       packageName = "get-intrinsic";
-      version = "1.1.3";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.3.tgz";
-        sha512 = "QJVz1Tj7MS099PevUG5jvnt9tSkXN8K14dxQlikJuPt4uD9hHAHjLyLBiLR5zELelBdD9QNRAXZzsJx0WaDL9A==";
+        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.0.tgz";
+        sha512 = "L049y6nFOuom5wGyRc3/gdTLO94dySVKRACj1RmJZBQXlbTMhtNIgkWkUHq+jYmZvKf14EW1EoJnnjbmoHij0Q==";
       };
     };
     "get-stream-6.0.1" = {
@@ -1333,10 +1333,10 @@ in
   spago-next = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.92.5";
+    version = "0.92.7";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.92.5.tgz";
-      sha512 = "YWz1QPfNRxB9JVvYDEDdvN8/+oe3g/YPJoDEGrOOFdKjfyF1FRbhtEUsEeOSWHpftbqD+zp6MW7QbPv1v5qKgA==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.92.7.tgz";
+      sha512 = "z5lvTQs2ACuJHi3c/rFEgw1BmSomNGPpV8kD5OH/eb76THbAKO9DgOuO9gF8eVmvj8JdTexNDPAvVumY/Wjf2A==";
     };
     dependencies = [
       sources."@esbuild/android-arm-0.15.18"
@@ -1359,7 +1359,7 @@ in
       sources."@octokit/rest-18.12.0"
       sources."@octokit/types-6.41.0"
       sources."available-typed-arrays-1.0.5"
-      sources."aws-sdk-2.1295.0"
+      sources."aws-sdk-2.1299.0"
       sources."balanced-match-1.0.2"
       sources."base64-js-1.5.1"
       sources."before-after-hook-2.2.3"
@@ -1410,7 +1410,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.1"
       sources."fuse.js-6.6.2"
-      sources."get-intrinsic-1.1.3"
+      sources."get-intrinsic-1.2.0"
       sources."get-stream-6.0.1"
       sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
