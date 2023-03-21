@@ -6,19 +6,19 @@ let
   urls = {
     "x86_64-linux" = {
       url = "https://github.com/purescript/purescript/releases/download/${version}/linux64.tar.gz";
-      sha256 = "1c32mlin1b57h4q38l3yp2iplmxb55y3w1v5fgr5pi049xrimf09";
+      sha256 = "sha256-XRbmSEnf9M9+YOhhaFSG4Am5SNvNQjnF/K0FgcHqGJo=";
     };
     "x86_64-darwin" = {
       url = "https://github.com/purescript/purescript/releases/download/${version}/macos.tar.gz";
-      sha256 = "19gx4ywfgsg9i3lajkrynfzzcdxs6g6m6a7nxwp35vwhw4kfmvqi";
+      sha256 = "sha256-h+Aln/b8+50b1MnJHVvYLE2V8gFtt2kauhxKGczch0U=";
     };
     "aarch64-linux" = {
       url = "https://github.com/purescript/purescript/releases/download/${version}/linux-arm64.tar.gz";
-      sha256 = "1qxiv92pv5925hlg1gw7hyvjx4ar4diwslxf298rydkw07z48wc5";
+      sha256 = "sha256-LyFn1JkbnHkDrFgiev2Ac9zM/LAyCHL4ez+93HKLxvo=";
     };
     "aarch64-darwin" = {
       url = "https://github.com/purescript/purescript/releases/download/${version}/macos-arm64.tar.gz";
-      sha256 = "1bq4xdxpy1wn4birrff7164s51y4kzyinghd0mbsyyz7b8iqaa6g";
+      sha256 = "sha256-IvfJ80ck5qkfnuQRSCy9pPoGrMG3y4hBjt7zXwqpQ7s=";
     };
   };
 
