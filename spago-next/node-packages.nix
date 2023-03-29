@@ -694,10 +694,10 @@ in
   spago-next = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.93.0";
+    version = "0.93.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.93.0.tgz";
-      sha512 = "tmUkBHtktfVHrupVyjxXBk69kGWH8cZIHNz8Leb9cmv0u9KEQPgHiEtM6pQGBjqaP+GeVzcdiNFimE2HYFQ5kw==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.93.1.tgz";
+      sha512 = "8YlL6BlLlEpjNcIUOSwRuTMkVlbUZf1z28dGzW5KAAgefiyHKZ0JCm3sx4+lg6F5ibkemD18CIDyrpvnu7BtRQ==";
     };
     dependencies = [
       sources."@esbuild/android-arm-0.15.18"
