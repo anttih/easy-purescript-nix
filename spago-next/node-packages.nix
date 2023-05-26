@@ -481,13 +481,13 @@ let
         sha512 = "DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==";
       };
     };
-    "minipass-4.2.5" = {
+    "minipass-5.0.0" = {
       name = "minipass";
       packageName = "minipass";
-      version = "4.2.5";
+      version = "5.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-4.2.5.tgz";
-        sha512 = "+yQl7SX3bIT83Lhb4BVorMAHVuqsskxRdlmO9kTpyukp8vsm2Sn/fUOV9xlnG8/a5JsypJzap21lz/y3FBMJ8Q==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-5.0.0.tgz";
+        sha512 = "3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==";
       };
     };
     "minizlib-2.1.2" = {
@@ -571,13 +571,13 @@ let
         sha512 = "5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==";
       };
     };
-    "semver-7.3.8" = {
+    "semver-7.5.1" = {
       name = "semver";
       packageName = "semver";
-      version = "7.3.8";
+      version = "7.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.3.8.tgz";
-        sha512 = "NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.5.1.tgz";
+        sha512 = "Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==";
       };
     };
     "spdx-exceptions-2.3.0" = {
@@ -616,13 +616,13 @@ let
         sha512 = "knBY82pjmnIzK3NifMo3RxEIRD9E0kIzV4BKcyTZ9+9kWgLMxd4PrsTSMoFQUabgRBbF8KOLRDCyKgNV+iK44Q==";
       };
     };
-    "tar-6.1.13" = {
+    "tar-6.1.15" = {
       name = "tar";
       packageName = "tar";
-      version = "6.1.13";
+      version = "6.1.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tar/-/tar-6.1.13.tgz";
-        sha512 = "jdIBIN6LTIe2jqzay/2vtYLlBHa3JF42ot3h1dW8Q0PaAG4v8rm0cvpVePtau5C6OKXGGcgO9q2AMNSWxiLqKw==";
+        url = "https://registry.npmjs.org/tar/-/tar-6.1.15.tgz";
+        sha512 = "/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==";
       };
     };
     "tmp-0.2.1" = {
@@ -679,13 +679,13 @@ let
         sha512 = "3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==";
       };
     };
-    "yaml-2.2.1" = {
+    "yaml-2.3.1" = {
       name = "yaml";
       packageName = "yaml";
-      version = "2.2.1";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/yaml/-/yaml-2.2.1.tgz";
-        sha512 = "e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==";
+        url = "https://registry.npmjs.org/yaml/-/yaml-2.3.1.tgz";
+        sha512 = "2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==";
       };
     };
   };
@@ -694,10 +694,10 @@ in
   spago-next = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.93.1";
+    version = "0.93.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.93.1.tgz";
-      sha512 = "8YlL6BlLlEpjNcIUOSwRuTMkVlbUZf1z28dGzW5KAAgefiyHKZ0JCm3sx4+lg6F5ibkemD18CIDyrpvnu7BtRQ==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.93.3.tgz";
+      sha512 = "InsoPiLPIuS6RGmCX8bWlQv9dP8MI9jZqZurFo6SUXkPnIQibiH6qPjv/Tj7HcyT4jJyBSJGEcGZ18u+5DGAOQ==";
     };
     dependencies = [
       sources."@esbuild/android-arm-0.15.18"
@@ -756,7 +756,7 @@ in
       sources."merge2-1.4.1"
       sources."micromatch-4.0.5"
       sources."minimatch-3.1.2"
-      sources."minipass-4.2.5"
+      sources."minipass-5.0.0"
       (sources."minizlib-2.1.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -770,19 +770,19 @@ in
       sources."reusify-1.0.4"
       sources."rimraf-3.0.2"
       sources."run-parallel-1.2.0"
-      sources."semver-7.3.8"
+      sources."semver-7.5.1"
       sources."spdx-exceptions-2.3.0"
       sources."spdx-expression-parse-3.0.1"
       sources."spdx-license-ids-3.0.13"
       sources."supports-color-9.3.1"
-      sources."tar-6.1.13"
+      sources."tar-6.1.15"
       sources."tmp-0.2.1"
       sources."to-regex-range-5.0.1"
       sources."universalify-2.0.0"
       sources."wrappy-1.0.2"
       sources."xhr2-0.2.1"
       sources."yallist-4.0.0"
-      sources."yaml-2.2.1"
+      sources."yaml-2.3.1"
     ];
     buildInputs = globalBuildInputs;
     meta = {
