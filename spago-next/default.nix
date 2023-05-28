@@ -4,4 +4,4 @@
   nodejs ? pkgs."nodejs-14_x",
 }:
 
-(import ./composition.nix {inherit pkgs;})."spago-next"
+(import ./composition.nix {inherit pkgs nodejs system;})."spago-next"
