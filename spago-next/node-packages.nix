@@ -364,13 +364,13 @@ let
         sha512 = "5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==";
       };
     };
-    "semver-7.5.1" = {
+    "semver-7.5.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.5.1";
+      version = "7.5.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.5.1.tgz";
-        sha512 = "Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.5.2.tgz";
+        sha512 = "SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==";
       };
     };
     "spdx-exceptions-2.3.0" = {
@@ -487,10 +487,10 @@ in
   spago-next = nodeEnv.buildNodePackage {
     name = "spago";
     packageName = "spago";
-    version = "0.93.5";
+    version = "0.93.6";
     src = fetchurl {
-      url = "https://registry.npmjs.org/spago/-/spago-0.93.5.tgz";
-      sha512 = "w7euaPQgfYbOpSxCPwRlMRAAxvo3Vcs8H3ff3HcLCOmPi+ghXWEhoqqSyWC6cC29tny56Vm+FgXLMgFqgOLB2Q==";
+      url = "https://registry.npmjs.org/spago/-/spago-0.93.6.tgz";
+      sha512 = "biqvUwCrs41aiqhbaAbAqEiByHMu4czuQ4lI4NriwXK4Xtdyue7JIhZpS+rJWj3lADd9EpU620itDOON1Pr9gQ==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -540,7 +540,7 @@ in
       sources."reusify-1.0.4"
       sources."rimraf-3.0.2"
       sources."run-parallel-1.2.0"
-      sources."semver-7.5.1"
+      sources."semver-7.5.2"
       sources."spdx-exceptions-2.3.0"
       sources."spdx-expression-parse-3.0.1"
       sources."spdx-license-ids-3.0.13"
